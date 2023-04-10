@@ -16,7 +16,7 @@ const HireMeModal = ({ onClose, onRequest }) => {
       exit={{ opacity: 0 }}
       className="font-general-medium fixed inset-0 z-30 transition-all duration-500">
       {/* Modal Backdrop */}
-      <div className="bg-filter bg-black bg-opacity-50 fixed inset-0 w-full h-full z-20"></div>
+      {/* <div className="b-filter bg-black bg-opacity-50 fixed inset-0 w-full h-full z-20"></div> */}
 
       {/* Modal Content */}
       <main className="flex flex-col items-center justify-center h-full w-full">
@@ -91,17 +91,12 @@ const HireMeModal = ({ onClose, onRequest }) => {
                   <span
                     onClick={onClose}
                     type="submit"
-                    className="px-4 sm:px-6 py-2 sm:py-2.5 text-white bg-indigo-500 hover:bg-indigo-600 rounded-md focus:ring-1 focus:ring-indigo-900 duration-500"
-                    aria-label="Submit Request"></span>
+                    className="px-4 sm:px-6 py-2 sm:py-2.5 text-white bg-indigo-500 hover:bg-indigo-600 rounded-md focus:ring-1 focus:ring-indigo-900 duration-500 cursor-pointer"
+                    aria-label="Submit Request">
+                    Submit
+                  </span>
                 </div>
               </form>
-            </div>
-            <div className="modal-footer mt-2 sm:mt-0 py-5 px-8 border0-t text-right">
-              <span
-                onClick={onClose}
-                type="button"
-                className="px-4 sm:px-6 py-2 bg-gray-600 text-primary-light hover:bg-ternary-dark dark:bg-gray-200 dark:text-secondary-dark dark:hover:bg-primary-light rounded-mdfocus:ring-1 focus:ring-indigo-900 duration-500"
-                aria-label="Close Modal"></span>
             </div>
           </div>
         </div>

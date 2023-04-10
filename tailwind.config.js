@@ -12,6 +12,12 @@ module.exports = {
         dark_primary: "#06223F",
         bg_light_primary: "#F5F9FD",
         gray: "#B7C5D3",
+        "primary-dark": "#0D2438",
+        "secondary-dark": "#102D44",
+        "ternary-dark": "#1E3851",
+        "primary-light": "#F7F8FC",
+        "secondary-light": "#FFFFFF",
+        "ternary-light": "#f6f7f8",
       },
       backgroundImage: {
         primaryLinear: "linear-gradient(180deg, #B6CCF5 0.48%, #D5E3F1 100%)",
