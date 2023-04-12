@@ -29,6 +29,18 @@
     "vite": "^4.2.0"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@hieund1901"
-  }
+    "@hieund1901:registry": "https://npm.pkg.github.com"
+  },
+  "main": "tailwind.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hieund1901/portfolio.git"
+  },
+  "author": "HieuND",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hieund1901/portfolio/issues"
+  },
+  "homepage": "https://github.com/hieund1901/portfolio#readme",
+  "description": ""
 }
